@@ -1,0 +1,29 @@
+.text-wine {
+  color: #7b1e3b;
+}
+
+.policy-link {
+  color: #7b1e3b;
+  text-decoration: underline;
+}
+
+.policy-link:hover,
+.policy-link:focus {
+  color: #7b1e3b;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .return-policy-section {
+    padding: 30px 15px !important;
+  }
+  .return-policy-title {
+    font-size: 1.8rem !important;
+  }
+  .policy-subtitle {
+    font-size: 1.2rem !important;
+  }
+  .policy-text {
+    font-size: 1rem !important;
+  }
+}

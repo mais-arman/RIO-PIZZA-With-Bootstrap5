@@ -1,0 +1,154 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Navbar */
+
+.brand-text-dark {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.brand-text-wine {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7b1e3b;
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+}
+
+.nav-link.active {
+  color: #7b1e3b !important;
+}
+
+.offcanvas-body {
+  padding: 1rem;
+}
+
+.offcanvas .nav-link {
+  color: #000 !important;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.offcanvas .nav-link.active {
+  color: #7b1e3b !important;
+}
+
+.offcanvas {
+  width: 280px; 
+}
+
+/* Hero Section  */
+
+.hero-section {
+  position: relative;
+  min-height: 87vh;
+  background-image: url("../imgs/pizza-spread.avif");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 60px 0;
+}
+
+.hero-subtitle {
+  color: #e0c800;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+/* Button Reserve */
+
+.btn-reserve {
+  padding: 12px 24px;
+  background-color: #fae21c;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-reserve:hover {
+  background-color: #e0c800;
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: #fff;
+  color: #111;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #111;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  color: #7b1e3b; 
+}
+
+@media (max-width: 575px) {
+  .hero-content {
+    padding: 20px 15px; 
+  }
+
+  .hero-subtitle {
+    font-size: 12px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .btn-reserve {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIO PIZZA | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/portfolio.css">
+  <link rel="icon" type="image/png" href="../assets/imgs/favicon.png">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-1" href="../index.html">
+      <span class="brand-text-dark">RIO</span>
+      <span class="brand-text-wine">PIZZA</span>
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body justify-content-end">
+        <ul class="navbar-nav fw-semibold">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./album.html">Album</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="./testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  </nav>
+
+  <section class="portfolio-hero text-white text-center position-relative d-flex align-items-center justify-content-center" style="background: url('https://www.elaosboa.com/wp-content/uploads/2023/08/elaosboa01298.jpeg') no-repeat center/cover; height: 300px;">
+    <div class="portfolio-hero-overlay position-absolute w-100 h-100" style="background-color: rgba(0,0,0,0.45); top:0; left:0;"></div>
+    <div class="portfolio-hero-content position-relative z-2">
+      <h2 class="portfolio-title display-4 fw-bold mb-3">Our Portfolio</h2>
+      <p class="portfolio-description fs-5 mx-auto" style="max-width: 700px;">Discover our special pizzas and crafted recipes that make RIO PIZZA unique.</p>
+    </div>
+  </section>
+
+  <section class="portfolio-list container my-5" style="max-width:1100px;">
+    <div class="row gy-4">
+
+      <div class="col-12">
+        <div class="portfolio-row d-flex flex-column flex-md-row align-items-center gap-3 p-3 bg-light rounded shadow-sm transition-scale">
+          <img src="https://www.acouplecooks.com/wp-content/uploads/2022/10/Margherita-Pizza-093.jpg" alt="Margherita Pizza" class="portfolio-image rounded" />
+          <div class="portfolio-text flex-grow-1">
+            <h3 class="text-wine mb-2">Margherita Pizza</h3>
+            <p>Classic Italian pizza with mozzarella cheese and fresh tomatoes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="portfolio-row d-flex flex-column flex-md-row align-items-center gap-3 p-3 bg-light rounded shadow-sm transition-scale">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.MQ3O3dmeKNcSDJCUj-IhYwHaEX?pid=Api&P=0&h=180" alt="Pepperoni Pizza" class="portfolio-image rounded" />
+          <div class="portfolio-text flex-grow-1">
+            <h3 class="text-wine mb-2">Pepperoni Pizza</h3>
+            <p>A delightful mix of meats and spices on a fresh dough base.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="portfolio-row d-flex flex-column flex-md-row align-items-center gap-3 p-3 bg-light rounded shadow-sm transition-scale">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.bLs7l5AEBXl1ANh5fnHvTgHaHa?pid=Api&P=0&h=180" alt="Veggie Pizza" class="portfolio-image rounded" />
+          <div class="portfolio-text flex-grow-1">
+            <h3 class="text-wine mb-2">Vegetable Pizza</h3>
+            <p>Fresh assorted vegetables with classic Italian tomato sauce.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="portfolio-row d-flex flex-column flex-md-row align-items-center gap-3 p-3 bg-light rounded shadow-sm transition-scale">
+          <img src="https://oldsturbridgepizza.com/wp-content/uploads/2018/08/Special-Pizza.jpg" alt="Special Pizza" class="portfolio-image rounded" />
+          <div class="portfolio-text flex-grow-1">
+            <h3 class="text-wine mb-2">Special Pizza</h3>
+            <p>A carefully selected mix of ingredients for an unforgettable taste experience.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto text-center py-3 bg-white shadow-sm">
+    © 2025 RIO PIZZA. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

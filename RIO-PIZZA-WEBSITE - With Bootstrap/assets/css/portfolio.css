@@ -1,0 +1,33 @@
+.text-wine {
+  color: #7b1e3b;
+}
+
+.portfolio-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.transition-scale {
+  transition: transform 0.3s ease;
+}
+
+.transition-scale:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 480px) {
+  .portfolio-title {
+    font-size: 2rem !important;
+  }
+  .portfolio-description {
+    font-size: 1rem !important;
+    max-width: 100% !important;
+  }
+  .portfolio-image {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 200px;
+  }
+}

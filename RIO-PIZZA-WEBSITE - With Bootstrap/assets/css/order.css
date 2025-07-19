@@ -1,0 +1,29 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 80px 15px;
+  color: #222;
+}
+
+.order-title {
+  color: #7b1e3b;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.btn-yellow {
+  background-color: #fae21c;
+  color: #111;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn-yellow:hover {
+  background-color: #e0c814;
+  color: #111;
+}
+
+.form-control:focus {
+  border-color: #fae21c;
+  box-shadow: 0 0 6px rgba(250, 226, 28, 0.6);
+}

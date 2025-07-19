@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIO PIZZA | Contact Us</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/contact.css">
+  <link rel="icon" type="image/png" href="../assets/imgs/favicon.png">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-1" href="../index.html">
+      <span class="brand-text-dark">RIO</span>
+      <span class="brand-text-wine">PIZZA</span>
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body justify-content-end">
+        <ul class="navbar-nav fw-semibold">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./album.html">Album</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="./testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <!-- Form -->
+      <div class="col-md-6">
+        <div class="contact-box h-100">
+          <div class="section-title">Get in Touch</div>
+          <form action="#" method="post" novalidate>
+            <div class="mb-3">
+              <label for="name" class="custom-form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-control custom-form-input" required placeholder="Your Name" autocomplete="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="custom-form-label">Your Email</label>
+              <input type="email" id="email" name="email" class="form-control custom-form-input" required placeholder="Your Email" autocomplete="email">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="custom-form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control custom-form-input" required placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="custom-form-label">Message</label>
+              <textarea id="message" name="message" class="form-control custom-form-textarea" rows="5" required placeholder="Enter your message here"></textarea>
+            </div>
+            <button type="submit" class="custom-btn">SEND</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="col-md-6">
+        <div class="contact-box h-100">
+          <div class="section-title">Contact Info</div>
+          <p class="contact-info-text"><strong>Address:</strong> Al-Irsal Street, Al-Hindi Building, 1st Floor, opposite the back entrance of Al-Raya Center, Ramallah</p>
+          <p class="contact-info-text"><strong>Phone:</strong> +970 599 000 000</p>
+          <p class="contact-info-text"><strong>Email:</strong> support@gmail.com</p>
+          <p class="contact-info-text"><strong>Working Hours:</strong> Sunday to Thursday, 9:00 AM - 6:00 PM</p>
+
+          <iframe
+            class="w-100 mt-3"
+            height="250"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.5660654884585!2d35.202!3d31.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502dbe342d95b63%3A0x53a74c011c5c27c4!2z2YXYrdin2YHYuNipINin2YTYp9mF2KfYqCDYp9mE2LPZhdin2LHYqCDYp9mE2YXYsdmK2Kkg2YTZhNin2YXYp9mF2Kk!5e0!3m2!1sen!2s!4v1720770145634"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-auto text-center py-3 bg-white shadow-sm">
+    © 2025 RIO PIZZA. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

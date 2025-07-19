@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIO PIZZA | Reservation</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/reservation.css">
+  <link rel="icon" type="image/png" href="../assets/imgs/favicon.png">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="text-center pt-5 pb-4 px-3 text-dark custom-hero">
+    <span class="hero-sub-title d-inline-block mb-2">About Our Restaurant</span>
+    <h1 class="fw-semibold display-5 mb-3">Book A Table</h1>
+  </section>
+
+  <!-- Reservation Form -->
+  <section class="bg-white rounded shadow mx-auto p-4 py-5" style="max-width: 900px; width: 90%;">
+    <h2 class="visually-hidden">Reservation Form</h2>
+    <form action="../index.html" method="get">
+      <div class="row g-3 mb-3">
+        <div class="col-md">
+          <select class="form-select" required aria-label="Select number of persons">
+            <option value="" disabled selected>Person</option>
+            <option value="2">Person 2</option>
+            <option value="3">Person 3</option>
+            <option value="4">Person 4</option>
+          </select>
+        </div>
+        <div class="col-md">
+          <input type="date" class="form-control" required aria-label="Select reservation date" />
+        </div>
+        <div class="col-md">
+          <input type="time" class="form-control" required aria-label="Select reservation time" />
+        </div>
+      </div>
+      <button type="submit" class="btn w-100 fw-bold py-3 custom-btn-yellow">Book Now</button>
+    </form>
+  </section>
+
+</body>
+</html>
